@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="ru" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,75 +8,107 @@
 	<meta http-equiv="Cache-Control" content="no-cache" />
 	<meta name="keywords" content="услуги грузчиков и разнорабочих, грузчики Москва, недорогие перевозки, проведение переездов, такелажные работы" />
 	<meta name="description" content="Услуги и заказ грузчиков для различных работ по разгрузке в Москве, проведение переездов. Предоставление разнорабочих на стройку, склад, в офис. Наличная и безналичная оплата. Недорогие тарифы, цены от 160 руб/час" />
-	<link href="http://gruzchiki-raznorabochie.ru/css/common.css" rel="stylesheet">
-        <script type="text/javascript" src="http://gruzchiki-raznorabochie.ru/js/jquery-1.7.min.js"></script>	
-
+	<meta name="viewport" content="width=device-width" />
+	<link href="http://gruzchiki-raznorabochie.ru/css/common.css" rel="stylesheet" />
+	<link href="css/fonts.css" rel="stylesheet" /> <!-- локальные шрифты (папка fonts) -->
+	<link href="css/main.css" rel="stylesheet" media="screen and (max-width:917px)" /> <!-- подключена таблица стилей -->
+    <script type="text/javascript" src="http://gruzchiki-raznorabochie.ru/js/jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script> <!-- подключены скрипты -->	
 </head>
 
 <body>
 	<div id="site">
 		
-		<div id="header">
-			<a href="http://gruzchiki-raznorabochie.ru" id="logo"></a>
-						<ul>
-				<li><a href="http://gruzchiki-raznorabochie.ru/uslugi/">Услуги</a></li> <li><a href="http://gruzchiki-raznorabochie.ru/about/">О компании</a></li> <li><a href="http://gruzchiki-raznorabochie.ru/kontakty/">Контакты</a></li> <li><a href="http://gruzchiki-raznorabochie.ru/personal/">Персонал</a></li> <li><a href="http://gruzchiki-raznorabochie.ru/info/">Статьи</a></li> <li><a href="http://gruzchiki-raznorabochie.ru/new-discount/">Скидки и акции</a></li> 
-			</ul>
+		<div id="header" class="clearfix"> <!-- добавлен класс class="clearfix" -->
+		
+			<div class="logo-wrapper">				
+				<div class="toggle_animate">
+					<span class="sandwich">
+						<span class="sw-topper"></span> 
+						<span class="sw-bottom"></span> 
+						<span class="sw-footer"></span> 
+					</span>
+				</div>
+				<a href="http://gruzchiki-raznorabochie.ru" id="logo"></a>
+			</div>
+			
+			<div class="menu-wrapper"> <!-- добавлена обертка с содержимым внутри -->
+				<ul class="main-menu clearfix">
+					<li><a href="http://gruzchiki-raznorabochie.ru/uslugi/">Услуги</a></li>
+					<li><a href="http://gruzchiki-raznorabochie.ru/about/">О компании</a></li>
+					<li><a href="http://gruzchiki-raznorabochie.ru/kontakty/">Контакты</a></li>
+					<li><a href="http://gruzchiki-raznorabochie.ru/personal/">Персонал</a></li>
+					<li><a href="http://gruzchiki-raznorabochie.ru/info/">Статьи</a></li>
+					<li><a href="http://gruzchiki-raznorabochie.ru/new-discount/">Скидки и акции</a></li> 
+				</ul>
+			</div>
+			
 			<div id="telephone">8(499) 553-09-22</div>
 		</div>
 		
-<div class="banner sliderWrapper">
-<div class="banner__text">
-<p class="banner__text__first">Организация и<br />проведение<span>переездов</span></p>
-<div class="banner__price">от <span>2500</span> рублей</div>
-<div class="banner__text__min">мгновенный выезд грузового автотранспорта</div>
-<div class="banner__sc">
-<div class="banner__sc__item"><a rel="nofollow" href="https://new.vk.com/gruzservise"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc1.png" /></a></div>
-<div class="banner__sc__item"><a rel="nofollow" href="https://www.facebook.com/gruzservise/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc2.png" /></a></div>
-<div class="banner__sc__item"><a rel="nofollow" href="https://twitter.com/gruzservice"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc3.png" /></a></div>
-<div class="banner__sc__item"><a rel="nofollow" href="http://ok.ru/group/53979771240689/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc4.png" /></a></div>
-<div class="banner__sc__item"><a rel="nofollow" href="https://plus.google.com/109984799509444015753/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc5.png" /></a></div>
-</div>
-</div>
-<div class="banner__box">
-<div class="banner__box__title">прайс лист</div>
-<div class="banner__box__text">
-<div class="banner__box__item">
-<div class="banner__item__desc">Грузчик</div>
-<div class="banner__item__price"><span>160</span> руб/час</div>
-</div>
-<div class="banner__box__item">
-<div class="banner__item__desc">Разнорабочий</div>
-<div class="banner__item__price"><span>150</span> руб/час</div>
-</div>
-<div class="banner__box__item">
-<div class="banner__item__desc">Газель <span>фургон</span></div>
-<div class="banner__item__price"><span>450</span> руб/час</div>
-</div>
-<div class="banner__box__item">
-<div class="banner__item__desc"><span>Такелажники</span></div>
-<div class="banner__item__price"><span>400</span> руб/час</div>
-</div>
-</div>
-<div class="banner__box__desc"><a href="/#srvices" class="banner__desc__item">Все цены  &gt;&gt;</a><a href="/kalculacia/" class="banner__desc__item">Калькуляция &gt;&gt;</a></div>
-</div>
+<div class="banner sliderWrapper clearfix"> <!-- добавлен класс clearfix -->
+	<div class="banner__text">
+		<p class="banner__text__first">Организация и<br />проведение<span>переездов</span></p>
+		<div class="banner__price">от <span>2500</span> рублей</div>
+		<div class="banner__text__min">мгновенный выезд грузового автотранспорта</div>
+		<div class="banner__sc">
+			<div class="banner__sc__item">
+				<a rel="nofollow" href="https://new.vk.com/gruzservise"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc1.png" alt="грузчики разноробочие"/></a> <!-- добавлен атрибут alt -->
+			</div> 
+			<div class="banner__sc__item">
+				<a rel="nofollow" href="https://www.facebook.com/gruzservise/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc2.png" alt="грузчики разноробочие"/></a> <!-- добавлен атрибут alt -->
+			</div>
+			<div class="banner__sc__item">
+				<a rel="nofollow" href="https://twitter.com/gruzservice"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc3.png" alt="грузчики разноробочие"/></a> <!-- добавлен атрибут alt -->
+			</div>
+			<div class="banner__sc__item">
+				<a rel="nofollow" href="http://ok.ru/group/53979771240689/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc4.png" alt="грузчики разноробочие"/></a> <!-- добавлен атрибут alt -->
+			</div>
+			<div class="banner__sc__item">
+				<a rel="nofollow" href="https://plus.google.com/109984799509444015753/"><img src="http://gruzchiki-raznorabochie.ru/i/site/baner/sc5.png" alt="грузчики разноробочие"/></a> <!-- добавлен атрибут alt -->
+			</div>
+		</div>
+	</div>
+	<div class="banner__box">
+		<div class="banner__box__title">прайс лист</div>
+		<div class="banner__box__text">
+			<div class="banner__box__item">
+				<div class="banner__item__desc">Грузчик</div>
+				<div class="banner__item__price"><span>160</span> руб/час</div>
+			</div>
+			<div class="banner__box__item">
+				<div class="banner__item__desc">Разнорабочий</div>
+				<div class="banner__item__price"><span>150</span> руб/час</div>
+			</div>
+			<div class="banner__box__item">
+				<div class="banner__item__desc">Газель <span>фургон</span></div>
+				<div class="banner__item__price"><span>450</span> руб/час</div>
+			</div>
+			<div class="banner__box__item">
+				<div class="banner__item__desc"><span>Такелажники</span></div>
+				<div class="banner__item__price"><span>400</span> руб/час</div>
+			</div>
+		</div>
+		<div class="banner__box__desc"><a href="/#srvices" class="banner__desc__item">Все цены  &gt;&gt;</a><a href="/kalculacia/" class="banner__desc__item">Калькуляция &gt;&gt;</a></div>
+	</div>
 </div>	
 		
 		<!-- Три блока -->
 		<div class="promoboxes">
-			<div class="c1">
+			<div class="c1 promoboxes__item"> <!-- добавлен класс promoboxes__item -->
 				<h4>1. Обратитесь к нам</h4>
 				<p>Закажите персонал по телефону или оставьте заявку</p>
 				<span>(499) 553-09-22</span>
 			</div>
-			<div class="c2">
+			<div class="c2 promoboxes__item"> <!-- добавлен класс promoboxes__item -->
 				<h4>2. Оформите заказ</h4>
 				<p>Быстрый расчет итоговой стоимости с учетом скидок</p>
 				<span>Отправить</span>
 			</div>
-			<div class="c3">
+			<div class="c3 promoboxes__item"> <!-- добавлен класс promoboxes__item -->
 				<h4>3. Получите результат</h4>
 				<p>Персонал прибудет к вам в течение 90 минут</p>
-				<p class="s1">Грузчики и другие рабочие<br />по единой стоимости 160 р. в час</p>
+				<p id="s1" class="s1">Грузчики и другие рабочие </br> по единой стоимости 160 р. в час</p> <!-- добавлен id="s1"-->
 			</div>
 		</div>
 		<div class="line"><!-- --></div>
@@ -95,7 +128,7 @@
 <ul class="imgthree row imgthree--animate">
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/gruzchiki-sklad/">
 <div class="text"><span>Перемещение,<br />фасовка, погрузка и <br />комплектовка товара<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/gruzchiknasklad.png" alt="складские работы" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/gruzchiknasklad.png" alt="складские работы"/> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>на склад</span></div>
 <div class="imgthree__desc__right"><span>160 руб.</span></div>
@@ -103,7 +136,7 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/gruzchiki-pereezd/">
 <div class="text"><span>Перевозка мебели,<br />переезд квартиры и <br />офиса, коттеджа<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/gruzchikpereezd.png" alt="проведение переездов" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/gruzchikpereezd.png" alt="проведение переездов"/> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>на переезд</span></div>
 <div class="imgthree__desc__right"><span>170 руб.</span></div>
@@ -111,13 +144,14 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/sborka-mebeli/">
 <div class="text"><span>Сборочные работы <br />мебели, оборудования  <br />разнос и расстановка<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/officeworker.png" alt="сборщики мебели" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/officeworker.png" alt="сборщики мебели"/> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>сборщики</span></div>
 <div class="imgthree__desc__right"><span>190 руб.</span></div>
 </div>
 </li>
 </ul>
+<p class="hidden-p">&nbsp;</p>
 <p>Успешно организуем не только квартирные и офисные переезды, наша квалификация позволяет выполнять также сложные промышленные переезды цехов завода, производства или отдельных станков. Особое внимание уделяется вещам и имуществу клиентов, где требуется бережное обращение, а также выполнение ряда дополнительных операций, таких как сборка/разборка мебели, упаковка, маркировка. А для перевозки или проведения переезда на место подается грузовой транспорт.</p>
 <p>Обладая недюжинной физической силой, выносливостью, грузчики трудятся на самых сложных объектах &ndash; железнодорожных станциях, грузовых терминалах, в порту, где требуется правильное распределение сил, ответственность и профессионализм, а процесс идет посменно как днем там и ночью с соблюдением всех правил безопасности.</p>
 <div class="zagl-1"><span class="main">
@@ -128,7 +162,7 @@
 <ul class="imgthree row imgthree--animate">
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/raznorabochie-na-strojku/">
 <div class="text"><span>Строительные <br />бригады на монолит <br />уборку и демонтаж<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/rabochnastroy.png" alt="разнорабочие" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/rabochnastroy.png" alt="разнорабочие" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>на стройку</span></div>
 <div class="imgthree__desc__right"><span>180 руб.</span></div>
@@ -136,7 +170,7 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/raznorabochih-v-office/">
 <div class="text"><span>Персонал для<br />для снабжения офиса<br />всем необходимым<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/officegruzchik.png" alt="грузчики в офис" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/officegruzchik.png" alt="грузчики в офис" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>в офис АХО</span></div>
 <div class="imgthree__desc__right"><span>210 руб.</span></div>
@@ -144,13 +178,14 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/ozelenitelnye-raboty/">
 <div class="text"><span>Копка и рытье<br />траншей, покраска <br />заборов и площадок<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/ozelenrabot.png" alt="озеленение" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/ozelenrabot.png" alt="озеленение" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>озеленение</span></div>
 <div class="imgthree__desc__right"><span>250 руб.</span></div>
 </div>
 </li>
 </ul>
+<p class="hidden-p">&nbsp;</p>
 <p>Именно универсальность, а также широкой профиль делает разнорабочего незаменимым при монтаже/демонтаже, уборке и вывозе мусора, резке и переносе строительных материалов, подготовке бетонного раствора, копке траншей, в хозяйственно-складской деятельности, других общестроительных, производственных работах. Наравне с грузчиками, разнорабочие применяют подручные средства: перчатки, ремни, молотки, кувалды, ломы, лопаты для увеличения производительности труда, травмобезопасности. Их будни зачастую не нормированы, но специалисты компании всегда готовы к переработкам и ночным сменам.</p>
 <div class="zagl-1"><span class="main">
 <h2>Качество услуг и тарифы</h2>
@@ -201,7 +236,7 @@
 <ul class="imgthree row imgthree--animate">
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/sbor_ur/">
 <div class="text"><span>Обработка участка<br />окучивание земли, <br /> прополка и уборка<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/vedgubork.png" alt="уборка урожая" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/vedgubork.png" alt="уборка урожая" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>сбор урожая</span></div>
 <div class="imgthree__desc__right"><span>150 руб.</span></div>
@@ -209,7 +244,7 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/strizhka-gazonov/">
 <div class="text"><span>Механическая и <br />ручная стрижка, уход<br />за газонной травой<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/gazon.png" alt="услуги стрижки газонов" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/gazon.png" alt="услуги стрижки газонов" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>уход за газонами</span></div>
 <div class="imgthree__desc__right"><span>230 руб.</span></div>
@@ -217,18 +252,19 @@
 </li>
 <li> <a class="large" href="http://gruzchiki-raznorabochie.ru/uborka-snega/">
 <div class="text"><span>Расчистка кровли<br />двора, парка, гаражей<br />от снежного покрова<span class="button-tree">&nbsp;</span></span></div>
-<img src="http://gruzchiki-raznorabochie.ru/pubs/sneg.png" alt="очистка и уборка снега" height="140" width="140" /> </a>
+<img src="http://gruzchiki-raznorabochie.ru/pubs/sneg.png" alt="очистка и уборка снега" /> </a>
 <div class="imgthree__desc">
 <div class="imgthree__desc__left"><span>уборка снега</span></div>
 <div class="imgthree__desc__right"><span>220 руб.</span></div>
 </div>
 </li>
 </ul>
-<p>&nbsp;</p>
+<p class="hidden-p">&nbsp;</p>
 <p>Требуются недорогие грузчики, разнорабочие или такелажники? На стройку, склад, разгрузку фур и переезд, есть срочный груз! Находитесь в г. Москва, ближайшей области, звоните в ООО &laquo;Грузсервис&raquo;. Заявки принимаются круглосуточно, работаем по будням и в выходные дни.</p>
 				</div>
 			</div>
-			<div id="navigation">
+			<div id="navigation" class="navigation"> <!-- добавлен класс navigation -->
+			<a href="#" class="navigation-btn"></a> <!-- добавлена кнопка навигации -->
 <div class="block rec"><a href="http://gruzchiki-raznorabochie.ru/razgruzka-gruzov/" title="разгрузка грузов">
 <div class="gruz"></div>
 Разгрузка грузов</a> <a href="http://gruzchiki-raznorabochie.ru/vspomogatelnye-uslugi/" title="подсобные работы">
@@ -254,8 +290,8 @@
 <h3>Благодарности</h3>
 </div>
 <div align="center">
-<div><a href="http://gruzchiki-raznorabochie.ru/otz/"><img border="0" width="110" height="155" src="http://gruzchiki-raznorabochie.ru/pubs/basm1.jpg" /></a></div>
-<div><a href="http://gruzchiki-raznorabochie.ru/pubs/saga.jpg" class="zoom"><img border="0" width="110" height="155" src="http://gruzchiki-raznorabochie.ru/pubs/stelecom.jpg" /></a></div>
+<div><a href="http://gruzchiki-raznorabochie.ru/otz/"><img border="0" src="http://gruzchiki-raznorabochie.ru/pubs/basm1.jpg" /></a></div>
+<div><a href="http://gruzchiki-raznorabochie.ru/pubs/saga.jpg" class="zoom"><img border="0" src="http://gruzchiki-raznorabochie.ru/pubs/stelecom.jpg" /></a></div>
 </div>
 </div>
 </div>
@@ -277,7 +313,7 @@
 					screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 					";"+Math.random()+
 					"' alt='' title='LiveInternet' "+
-					"border='0' width='31' height='31'><\/a>")
+					"border='0'><\/a>")
 					//--></script>
 	            </div>
 	            <div class="logo-footer__text">Грузсервис &copy; 2010-2016</div>

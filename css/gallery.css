@@ -1,0 +1,84 @@
+.photo-wall:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.photo-wall {
+	padding: 50px 0;
+}
+
+.photo-wall ul {
+	margin: 0;
+	padding: 0;
+}
+
+.photo-wall ul li {
+	list-style: none;
+	float: left;
+	width: 29.33333333333333%;
+	margin: 2% 2% 30px 2%;
+	border: 3px solid #ccc;
+	box-sizing: border-box;
+}
+
+.photo-wall ul li a {
+	position: relative;
+	color: #fff;
+}
+
+.photo-wall ul li a img {
+	width: 100% !important;
+	vertical-align: bottom;	
+}
+
+.photo-wall .img-inner-text {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	padding: 10px 0;
+	text-indent: 8px;
+}
+
+.photo-wall .img-inner-text:after {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/loupe.png);
+	position: absolute;
+	right: 5px;
+	top: 6px;
+}
+
+.photo-wall .img-inner-text > span {
+	display: block;
+	width: 84%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+@media only screen and (max-width : 767px) {
+	
+	.photo-wall {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	.photo-wall ul li {
+		width: 44%;
+	}
+	
+}
+
+@media only screen and (max-width : 480px) {
+	
+	.photo-wall {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.photo-wall ul li {
+		width: 88%;
+	}
+	
+}
